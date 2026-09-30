@@ -13,7 +13,7 @@ en el equipo local.
 Se comprueba que GitHub CLI está instalado y que la cuenta de GitHub está
 correctamente autenticada.
 
-![GitHub CLI - gh auth status](img/02-gh-auth.png)
+![GitHub CLI - gh auth status](img/02-auth.png)
 
 
 ## 3. Herd instalado con PHP 8.4
@@ -37,4 +37,4 @@ Finalmente, se muestra que Herd tiene enlazado el repositorio `misitio` y que
 el sitio web está disponible mediante HTTPS.
 
 ![Herd enlazado a misitio mediante HTTPS](img/05-misitio.png)
-![Enlace con HTTPS](img/06-https.png)
+![Enlace con HTTPS](img/06-misitio-https.png)
