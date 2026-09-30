@@ -1,37 +1,37 @@
-# Documentación de la instalación y configuración
+# **Práctica 01: Documentación de la instalación y configuración**
 
-## 1. Git instalado y configurado en local
+### 1. Git instalado y configurado en local
 
 En este apartado se muestra que Git está instalado y configurado correctamente
 en el equipo local.
 
 ![Git instalado y configurado](img/01-git.png)
+___
 
-
-## 2. GitHub CLI instalado y configurado
+### 2. GitHub CLI instalado y configurado
 
 Se comprueba que GitHub CLI está instalado y que la cuenta de GitHub está
 correctamente autenticada.
 
 ![GitHub CLI - gh auth status](img/02-auth.png)
+___
 
-
-## 3. Herd instalado con PHP 8.4
+### 3. Herd instalado con PHP 8.4
 
 Se muestra Herd instalado y configurado utilizando PHP 8.4.
 
 ![Herd con PHP 8.4](img/03-herd.png)
+___
 
-
-## 4. Repositorio `misitio` clonado en local
+### 4. Repositorio `misitio` clonado en local
 
 Se muestra el repositorio `misitio` descargado y disponible en el equipo
 local.
 
 ![Repositorio misitio clonado](img/04-clonado.png)
+___
 
-
-## 5. Herd enlazado al repositorio `misitio` y servido mediante HTTPS
+### 5. Herd enlazado al repositorio `misitio` y servido mediante HTTPS
 
 Finalmente, se muestra que Herd tiene enlazado el repositorio `misitio` y que
 el sitio web está disponible mediante HTTPS.

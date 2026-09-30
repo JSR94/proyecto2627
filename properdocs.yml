@@ -1,6 +1,7 @@
 site_name: Proyecto Interdisciplinar 2026/27
 nav:
-  - Práctica 01: practica01.md
+  - Inicio: index.md
+  - Práctica 01 - Documentación de la instalación y configuración: practica01.md
 
 theme:
   name: readthedocs
