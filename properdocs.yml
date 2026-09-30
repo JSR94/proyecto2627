@@ -1,16 +1,26 @@
 site_name: Proyecto Interdisciplinar 2026/27
 site_description: Proyecto final del Grado Superior de Desarrollo de Aplicaciones Web (DAW.
 site:author: Jesús Saorín - IES Los Albares
+
+# Selección del tema Read the Docs y configuración de la documentación
+theme:
+  name: readthedocs
+  locale: es
+  highlightjs: true
+  hljs_languages:
+    - php
+    - bash
+    - json
+    - html
+  features:
+    - content.code.copy
+
+# Estructura de la navegación
 nav:
   - Inicio: index.md
   - Práctica 01 - Documentación de la instalación y configuración: practica01.md
 
-theme:
-  name: readthedocs
-  locale: es
-  features:
-    - content.code.copy
-
+# Opciones adicionales
 markdown_extensions:
   - pymdownx.superfences
   - pymdownx.betterem
