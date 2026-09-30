@@ -17,7 +17,6 @@ theme:
 
 # Estructura de la navegación
 nav:
-  - Inicio: index.md
   - Práctica 01 - Documentación de la instalación y configuración: practica01.md
 
 # Opciones adicionales
