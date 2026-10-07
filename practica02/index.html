@@ -89,6 +89,17 @@
 <h3 id="1-formulario-del-sueldo-y-puesto">1. Formulario del sueldo y puesto</h3>
 <p>En el archivo html se muestra el formulario donde se introduce el sueldo del trabajador y se selecciona el puesto.</p>
 <p>El sueldo debe ser un número entero mayor de 1000 €.</p>
+<pre class="highlight"><code class="language-text">&lt;form name="myform" method="post" action="UT02P02.php"&gt;
+        Sueldo:
+        &lt;input class="input is-link" type="number" min="1000" name="sueldo" placeholder="Sueldo" required&gt;
+        Puesto:
+        &lt;select class="input is-link" name="puesto" required&gt;
+            &lt;option disabled selected&gt;Seleccione un puesto&lt;/option&gt;
+            &lt;option value="base"&gt;Base&lt;/option&gt;
+            &lt;option value="directivo"&gt;Directivo&lt;/option&gt;
+            &lt;option value="altoCargo"&gt;Alto Cargo&lt;/option&gt;
+        &lt;/select&gt;
+        &lt;input type="submit" value="Enviar" class="button is-link"&gt;</code></pre>
 <hr />
 <h3 id="2-seleccion-del-puesto">2. Selección del puesto</h3>
 <p>El puesto se selecciona mediante un desplegable con tres opciones: <strong>Base</strong>, <strong>Directivo</strong> y <strong>Alto cargo</strong>.</p>
@@ -101,6 +112,24 @@
 <li>Directivo: 15%</li>
 <li>Alto cargo: 20%</li>
 </ul>
+<pre class="highlight"><code class="language-text">        $sueldo = $_POST["sueldo"] ?? 1000;
+        $puesto = $_POST["puesto"] ?? 'base';
+
+        switch ($puesto) {
+            case 'base':
+                $complemento = 10;
+                break;
+            case 'directivo':
+                $complemento = 15;
+                break;
+            case 'altoCargo':
+                $complemento = 20;
+                break;
+            default:
+                $complemento = 0;
+        }
+
+        $sueldoFinal = $sueldo + ($sueldo * $complemento / 100);</code></pre>
 <hr />
 <h3 id="4-resultado-final">4. Resultado final</h3>
 <p>Finalmente, se muestra el sueldo base, el porcentaje de complemento y el sueldo final.</p>
