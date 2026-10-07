@@ -2,7 +2,7 @@
 
 ### 1. Formulario del sueldo y puesto
 
-En este apartado se muestra el formulario donde se introduce el sueldo del trabajador y se selecciona el puesto.
+En el archivo html se muestra el formulario donde se introduce el sueldo del trabajador y se selecciona el puesto.
 
 El sueldo debe ser un número entero mayor de 1000 €.
 
@@ -19,7 +19,7 @@ ___
 
 ### 3. Cálculo del salario
 
-Al enviar el formulario, la segunda página recibe los datos y calcula el complemento según el puesto seleccionado:
+Al enviar el formulario, la segunda página (.php) recibe los datos y calcula el complemento según el puesto seleccionado:
 
 * Base: 10%
 * Directivo: 15%
