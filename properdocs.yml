@@ -18,6 +18,7 @@ theme:
 # Estructura de la navegación
 nav:
   - Práctica 01 - Documentación de la instalación y configuración: practica01.md
+  - Práctica 02 - Calculo de salario: practica02.md
 
 # Opciones adicionales
 markdown_extensions:
